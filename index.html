@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--Alexa Summers, 2/12/26-->
+<html lang="en">
+	<head>
+		<title> Cascading Style Sheets </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css" type="text/css">
+		<style>
+			p {background-color: black;
+			color: white;}
+			
+			.groupstyles {background-color: yellow;
+			color: purple;}
+			
+			.spanclass {background-color: blue;}
+			
+			#idstyle {background-color: green;}
+			
+			footer p {color: red;}
+		</style>
+	</head>
+	<body>
+		<h1> Cascading Style Sheets </h1>
+		<h2> CSS Methods </h2>
+		<ol>
+			<li> Browser Defaults </li>
+			<li> External Styles </li>
+			<li> Embedded Styles </li>
+			<li> Imported Styles </li>
+		</ol>
+		<p> External -- coded as a separate file </p>
+		<p> Embedded -- defined in the head section of the website </p>
+		<p> Imported -- brought in from somewhere else </p>
+		<p style="background-color: orange;"> Inline -- coded in the HTML as an attribute of the tag </p>
+		
+		<h2 class="groupstyles"> Classes </h2>
+		<p> Classes allow you <span class="spanclass">to create a group </span> that have the same styles </p>
+		
+		<h2 id="idstyle"> IDs </h2>
+		<p> IDs allow you to classify one specific element on the page </p>
+		
+		<footer>
+			<p> name </p>
+			<p> address </p>
+			<p> email </p>
+			<p> copyright </p>
+		</footer>
+	</body>
+</html>
